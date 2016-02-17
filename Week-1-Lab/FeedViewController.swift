@@ -16,7 +16,7 @@ class FeedViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "nav"), forBarMetrics: UIBarMetrics.Default)
         scrollView.contentSize = feedImage.image!.size
         scrollView.delegate = self
     }

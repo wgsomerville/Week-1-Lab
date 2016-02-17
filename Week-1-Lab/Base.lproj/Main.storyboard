@@ -28,7 +28,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQy-Qz-NnV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-323" y="-200"/>
+            <point key="canvasLocation" x="-803" y="-200"/>
         </scene>
         <!--Notifications-->
         <scene sceneID="JBA-Po-71B">
@@ -63,7 +63,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MYD-y1-tJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="119" y="-200"/>
+            <point key="canvasLocation" x="651" y="-200"/>
         </scene>
         <!--More-->
         <scene sceneID="aYS-iS-ehl">
@@ -98,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ajf-vV-zZ6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="509" y="-200"/>
+            <point key="canvasLocation" x="1041" y="-200"/>
         </scene>
         <!--Requests-->
         <scene sceneID="bZp-L7-b18">
@@ -133,18 +133,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qTA-v8-hNT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-869" y="-223"/>
+            <point key="canvasLocation" x="-319" y="-200"/>
         </scene>
-        <!--News Feed-->
+        <!--Feed View Controller-->
         <scene sceneID="7ig-ab-Zgq">
             <objects>
                 <viewController id="zAT-5F-w9Q" customClass="FeedViewController" customModule="Week_1_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u9d-PF-L5B">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5tW-kk-tpd">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="compose" id="ZKO-6k-4Fj">
@@ -155,16 +155,20 @@
                                         <rect key="frame" x="0.0" y="46" width="320" height="1025"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UA5-Oa-SWR" userLabel="Thrill List Button">
+                                        <rect key="frame" x="8" y="273" width="304" height="473"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="bay-h1-FjR" kind="push" identifier="thrilllistSegue" id="g6N-6T-rry"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="nav" id="urV-Yd-0y8">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20784313725490197" green="0.29803921568627451" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="News Feed" image="feed_tab" id="ss8-yd-4LZ"/>
+                    <navigationItem key="navigationItem" id="Rlw-PI-ghd"/>
                     <connections>
                         <outlet property="feedImage" destination="afb-dp-rhL" id="3H3-ow-N3r"/>
                         <outlet property="scrollView" destination="5tW-kk-tpd" id="HyW-u0-vVl"/>
@@ -172,7 +176,54 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNf-QO-1yy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1345" y="-223"/>
+            <point key="canvasLocation" x="-1363" y="526"/>
+        </scene>
+        <!--Thrilllist Detail View Controller-->
+        <scene sceneID="N4q-3j-QAZ">
+            <objects>
+                <viewController id="bay-h1-FjR" customClass="ThrilllistDetailViewController" customModule="Week_1_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uXd-kp-bQ8">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="iDG-XG-lrI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="thrillist_detail" id="b3g-zX-F77">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1203"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XhW-Qi-uxO">
+                                        <rect key="frame" x="28" y="358" width="50" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="6" maxY="0.0"/>
+                                        <state key="normal" title="Like" image="like_btn">
+                                            <color key="titleColor" red="0.53725490196078429" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="selected" image="like_btn_selected">
+                                            <color key="titleColor" red="0.20784313730000001" green="0.29803921570000003" blue="0.56470588239999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="selectedLikeButton:" destination="bay-h1-FjR" eventType="touchUpInside" id="tHg-F7-SrU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Cx-6Q-Pl4"/>
+                    <connections>
+                        <outlet property="likeButton" destination="XhW-Qi-uxO" id="Rzb-bt-7ft"/>
+                        <outlet property="scrollView" destination="iDG-XG-lrI" id="tK3-Ib-gB7"/>
+                        <outlet property="thrilllistDetailImage" destination="b3g-zX-F77" id="f6T-gQ-PFm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vHN-dR-VgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1785" y="526"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="gVJ-qK-4GQ">
@@ -184,7 +235,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="zAT-5F-w9Q" kind="relationship" relationship="viewControllers" id="FQv-o5-2NI"/>
+                        <segue destination="AZ4-A2-Pnp" kind="relationship" relationship="viewControllers" id="FQv-o5-2NI"/>
                         <segue destination="3aq-as-kz7" kind="relationship" relationship="viewControllers" id="DZg-XL-bSi"/>
                         <segue destination="cUw-yL-xvJ" kind="relationship" relationship="viewControllers" id="rkl-xl-d75"/>
                         <segue destination="ApT-gn-eur" kind="relationship" relationship="viewControllers" id="4CO-PT-cGd"/>
@@ -195,11 +246,33 @@
             </objects>
             <point key="canvasLocation" x="-323" y="-957"/>
         </scene>
+        <!--News Feed-->
+        <scene sceneID="tPu-yJ-fmR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AZ4-A2-Pnp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="News Feed" image="feed_tab" id="ss8-yd-4LZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="PW3-jr-Q8d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zAT-5F-w9Q" kind="relationship" relationship="rootViewController" id="H1C-dG-GxV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15Q-3J-V7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1363" y="-200"/>
+        </scene>
     </scenes>
     <resources>
         <image name="compose" width="320" height="46"/>
         <image name="feed_tab" width="27" height="27"/>
         <image name="home_feed" width="320" height="1025"/>
+        <image name="like_btn" width="17" height="40"/>
+        <image name="like_btn_selected" width="17" height="40"/>
         <image name="messages" width="320" height="460"/>
         <image name="messages_tab" width="27" height="27"/>
         <image name="more_tab" width="27" height="27"/>
@@ -209,5 +282,6 @@
         <image name="people" width="320" height="1006"/>
         <image name="requests_tab" width="27" height="27"/>
         <image name="settings" width="320" height="1800"/>
+        <image name="thrillist_detail" width="320" height="1203"/>
     </resources>
 </document>

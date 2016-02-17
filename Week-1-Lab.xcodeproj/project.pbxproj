@@ -16,6 +16,7 @@
 		A458ADC41C726EC80098DE53 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458ADC31C726EC80098DE53 /* NotificationsViewController.swift */; };
 		A458ADC61C726EE10098DE53 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458ADC51C726EE10098DE53 /* RequestsViewController.swift */; };
 		A458ADC81C726EE70098DE53 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458ADC71C726EE70098DE53 /* MoreViewController.swift */; };
+		A4E1B8971C741DC60035AB31 /* ThrilllistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1B8961C741DC60035AB31 /* ThrilllistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A458ADC31C726EC80098DE53 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		A458ADC51C726EE10098DE53 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
 		A458ADC71C726EE70098DE53 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		A4E1B8961C741DC60035AB31 /* ThrilllistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrilllistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		A458ADC91C726EEC0098DE53 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A4E1B8961C741DC60035AB31 /* ThrilllistDetailViewController.swift */,
 				A458ADBF1C726EB50098DE53 /* FeedViewController.swift */,
 				A458ADC11C726EC00098DE53 /* MessagesViewController.swift */,
 				A458ADC31C726EC80098DE53 /* NotificationsViewController.swift */,
@@ -160,6 +163,7 @@
 				A458ADC01C726EB50098DE53 /* FeedViewController.swift in Sources */,
 				A458ADC81C726EE70098DE53 /* MoreViewController.swift in Sources */,
 				A458ADAE1C72685B0098DE53 /* AppDelegate.swift in Sources */,
+				A4E1B8971C741DC60035AB31 /* ThrilllistDetailViewController.swift in Sources */,
 				A458ADC41C726EC80098DE53 /* NotificationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +312,7 @@
 				A458ADBE1C72685C0098DE53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
