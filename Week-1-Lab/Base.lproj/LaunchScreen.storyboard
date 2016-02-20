@@ -13,8 +13,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="launch_image" id="oQh-Ej-UAS">
-                                <rect key="frame" x="-30" y="0.0" width="380" height="570"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="launch_image_r4" id="tdm-UI-s5h">
+                                <rect key="frame" x="0.0" y="-284" width="320" height="1136"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -27,6 +27,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch_image" width="640" height="960"/>
+        <image name="launch_image_r4" width="640" height="1136"/>
     </resources>
 </document>
