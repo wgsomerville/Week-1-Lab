@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40DA8E91C74257300D3E258 /* CheckinModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40DA8E81C74257300D3E258 /* CheckinModalViewController.swift */; };
+		A40DA8EB1C74257C00D3E258 /* PhotosModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40DA8EA1C74257C00D3E258 /* PhotosModalViewController.swift */; };
+		A40DA8ED1C74258B00D3E258 /* StatusModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40DA8EC1C74258B00D3E258 /* StatusModalViewController.swift */; };
 		A458ADAE1C72685B0098DE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458ADAD1C72685B0098DE53 /* AppDelegate.swift */; };
 		A458ADB31C72685C0098DE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A458ADB11C72685C0098DE53 /* Main.storyboard */; };
 		A458ADB51C72685C0098DE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A458ADB41C72685C0098DE53 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A40DA8E81C74257300D3E258 /* CheckinModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinModalViewController.swift; sourceTree = "<group>"; };
+		A40DA8EA1C74257C00D3E258 /* PhotosModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosModalViewController.swift; sourceTree = "<group>"; };
+		A40DA8EC1C74258B00D3E258 /* StatusModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusModalViewController.swift; sourceTree = "<group>"; };
 		A458ADAA1C72685B0098DE53 /* Week-1-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week-1-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A458ADAD1C72685B0098DE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A458ADB21C72685C0098DE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 				A458ADC31C726EC80098DE53 /* NotificationsViewController.swift */,
 				A458ADC51C726EE10098DE53 /* RequestsViewController.swift */,
 				A458ADC71C726EE70098DE53 /* MoreViewController.swift */,
+				A40DA8E81C74257300D3E258 /* CheckinModalViewController.swift */,
+				A40DA8EA1C74257C00D3E258 /* PhotosModalViewController.swift */,
+				A40DA8EC1C74258B00D3E258 /* StatusModalViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -158,12 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40DA8E91C74257300D3E258 /* CheckinModalViewController.swift in Sources */,
 				A458ADC61C726EE10098DE53 /* RequestsViewController.swift in Sources */,
 				A458ADC21C726EC00098DE53 /* MessagesViewController.swift in Sources */,
+				A40DA8EB1C74257C00D3E258 /* PhotosModalViewController.swift in Sources */,
 				A458ADC01C726EB50098DE53 /* FeedViewController.swift in Sources */,
 				A458ADC81C726EE70098DE53 /* MoreViewController.swift in Sources */,
 				A458ADAE1C72685B0098DE53 /* AppDelegate.swift in Sources */,
 				A4E1B8971C741DC60035AB31 /* ThrilllistDetailViewController.swift in Sources */,
+				A40DA8ED1C74258B00D3E258 /* StatusModalViewController.swift in Sources */,
 				A458ADC41C726EC80098DE53 /* NotificationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

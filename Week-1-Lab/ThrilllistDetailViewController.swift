@@ -18,7 +18,8 @@ class ThrilllistDetailViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "nav_back"), forBarMetrics: UIBarMetrics.Default)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillShow:", name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
         scrollView.contentSize = thrilllistDetailImage.image!.size
         scrollView.delegate = self
     }
@@ -42,6 +43,19 @@ class ThrilllistDetailViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
     }
+    
+    func keyboardWillShow(notification: NSNotification!) {
+        
+    }
+    
+    func keyboardWillHide(notification: NSNotification!) {
+        
+    }
+    
+    @IBAction func backButtonPressed(sender: AnyObject) {
+        
+        self.navigationController?.popViewControllerAnimated(true)
+    }
 
     @IBAction func selectedLikeButton(sender: AnyObject) {
         if likeButton.selected {
@@ -49,6 +63,12 @@ class ThrilllistDetailViewController: UIViewController, UIScrollViewDelegate {
         } else {
             likeButton.selected = true
         }
+    }
+    
+
+    @IBAction func commentButtonPressed(sender: AnyObject) {
+        
+        
     }
     
 }
