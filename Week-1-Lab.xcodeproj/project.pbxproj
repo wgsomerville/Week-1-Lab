@@ -19,6 +19,7 @@
 		A458ADC41C726EC80098DE53 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458ADC31C726EC80098DE53 /* NotificationsViewController.swift */; };
 		A458ADC61C726EE10098DE53 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458ADC51C726EE10098DE53 /* RequestsViewController.swift */; };
 		A458ADC81C726EE70098DE53 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A458ADC71C726EE70098DE53 /* MoreViewController.swift */; };
+		A4BB31841C7B7EDB0024412C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BB31831C7B7EDB0024412C /* Common.swift */; };
 		A4E1B8971C741DC60035AB31 /* ThrilllistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1B8961C741DC60035AB31 /* ThrilllistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		A458ADC31C726EC80098DE53 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		A458ADC51C726EE10098DE53 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
 		A458ADC71C726EE70098DE53 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		A4BB31831C7B7EDB0024412C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		A4E1B8961C741DC60035AB31 /* ThrilllistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrilllistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				A458ADAD1C72685B0098DE53 /* AppDelegate.swift */,
+				A4BB31831C7B7EDB0024412C /* Common.swift */,
 				A458ADB11C72685C0098DE53 /* Main.storyboard */,
 				A458ADB41C72685C0098DE53 /* Assets.xcassets */,
 				A458ADB61C72685C0098DE53 /* LaunchScreen.storyboard */,
@@ -171,6 +174,7 @@
 				A458ADC61C726EE10098DE53 /* RequestsViewController.swift in Sources */,
 				A458ADC21C726EC00098DE53 /* MessagesViewController.swift in Sources */,
 				A40DA8EB1C74257C00D3E258 /* PhotosModalViewController.swift in Sources */,
+				A4BB31841C7B7EDB0024412C /* Common.swift in Sources */,
 				A458ADC01C726EB50098DE53 /* FeedViewController.swift in Sources */,
 				A458ADC81C726EE70098DE53 /* MoreViewController.swift in Sources */,
 				A458ADAE1C72685B0098DE53 /* AppDelegate.swift in Sources */,
